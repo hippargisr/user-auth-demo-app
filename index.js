@@ -8,7 +8,7 @@ const mongoose = require('mongoose');
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://sunil:sunil@cluster0.njjfe5u.mongodb.net/user-auth-app?retryWrites=true&w=majority', {
+mongoose.connect('YOUR MONGO LINK HERE', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
